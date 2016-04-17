@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="xyz.ksystems.appspace.k_systemsportfolio.MainActivityFragment"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Application Showcase"
+        android:id="@+id/textView"
+        android:gravity="center_vertical|center_horizontal" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Popular Movies"
+        android:id="@+id/btnPopularMovies"
+        android:layout_gravity="center_horizontal"
+        android:minHeight="60dp"
+        android:textSize="18dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stock Hawk"
+        android:id="@+id/btnStockHawk"
+        android:layout_gravity="center_horizontal"
+        android:minHeight="60dp"
+        android:textSize="18dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Build It Bigger"
+        android:id="@+id/btnBuild"
+        android:layout_gravity="center_horizontal"
+        android:minHeight="60dp"
+        android:textSize="18dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Materialism"
+        android:id="@+id/btnMaterialism"
+        android:layout_gravity="center_horizontal"
+        android:minHeight="60dp"
+        android:textSize="18dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go Ubiquitous"
+        android:id="@+id/btnUbiquitous"
+        android:layout_gravity="center_horizontal"
+        android:minHeight="60dp"
+        android:textSize="18dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mini-ATC"
+        android:id="@+id/btnMiniATC"
+        android:layout_gravity="center_horizontal"
+        android:minHeight="60dp"
+        android:textSize="18dp" />
+</LinearLayout>
