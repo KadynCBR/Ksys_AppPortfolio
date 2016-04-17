@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">K-Systems Portfolio</string>
     <string name="action_settings">Settings</string>
+    <string name="application_showcase">Application Showcase</string>
+    <string name="btntxtPopularMovies">Popular Movies</string>
+    <string name="btntxtStockHawk">Stock Hawk</string>
+    <string name="btntxtBuild">Build It Bigger</string>
+    <string name="btntxtMaterialism">Materialism</string>
+    <string name="btntxtUbiquitous">Go Ubiquitous</string>
+    <string name="btntxtMiniATC">Mini-ATC</string>
 </resources>

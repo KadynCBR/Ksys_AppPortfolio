@@ -10,65 +10,54 @@
     tools:context="xyz.ksystems.appspace.k_systemsportfolio.MainActivityFragment"
     tools:showIn="@layout/activity_main">
 
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Application Showcase"
-        android:id="@+id/textView"
-        android:gravity="center_vertical|center_horizontal" />
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView" >
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Popular Movies"
-        android:id="@+id/btnPopularMovies"
-        android:layout_gravity="center_horizontal"
-        android:minHeight="60dp"
-        android:textSize="18dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Stock Hawk"
-        android:id="@+id/btnStockHawk"
-        android:layout_gravity="center_horizontal"
-        android:minHeight="60dp"
-        android:textSize="18dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Application Showcase"
+                android:id="@+id/textView"
+                android:gravity="center_vertical|center_horizontal" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Build It Bigger"
-        android:id="@+id/btnBuild"
-        android:layout_gravity="center_horizontal"
-        android:minHeight="60dp"
-        android:textSize="18dp" />
+            <Button
+                android:text="@string/btntxtPopularMovies"
+                style="@style/customShowcaseButton"
+                android:id="@+id/btnPopularMovies"/>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Materialism"
-        android:id="@+id/btnMaterialism"
-        android:layout_gravity="center_horizontal"
-        android:minHeight="60dp"
-        android:textSize="18dp" />
+            <Button
+                android:text="@string/btntxtStockHawk"
+                style="@style/customShowcaseButton"
+                android:id="@+id/btnStockHawk" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Go Ubiquitous"
-        android:id="@+id/btnUbiquitous"
-        android:layout_gravity="center_horizontal"
-        android:minHeight="60dp"
-        android:textSize="18dp" />
+            <Button
+                android:text="@string/btntxtBuild"
+                android:id="@+id/btnBuild"
+                style="@style/customShowcaseButton" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="mini-ATC"
-        android:id="@+id/btnMiniATC"
-        android:layout_gravity="center_horizontal"
-        android:minHeight="60dp"
-        android:textSize="18dp" />
+            <Button
+                android:text="@string/btntxtMaterialism"
+                android:id="@+id/btnMaterialism"
+                style ="@style/customShowcaseButton" />
+
+            <Button
+                android:text="@string/btntxtUbiquitous"
+                style="@style/customShowcaseButton"
+                android:id="@+id/btnUbiquitous" />
+
+            <Button
+                android:text="@string/btntxtMiniATC"
+                style="@style/customShowcaseButton"
+                android:id="@+id/btnMiniATC" />
+        </LinearLayout>
+    </ScrollView>
+
 </LinearLayout>
